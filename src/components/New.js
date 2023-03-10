@@ -14,6 +14,8 @@ import "../Modal.css";
 import star from "../img/stars.svg"
 import tf_img from "../img/tf-img.png"
 import cartBg from "../img/cart-bg.png"
+import { Provider } from 'react-redux';
+
 
 const New = () => {
     const { dis } = Use_r_state();
@@ -33,7 +35,6 @@ const New = () => {
     }
     const [modal, setModal] = useState(false);
 
-    const [count, setCount] = useState(0);
     const toggleModal = () => {
         setModal(!modal);
     };
@@ -176,11 +177,11 @@ const New = () => {
                                     <h3 className="text-3xl font-bold">Rastaropsha MAX</h3>
                                     <img src={star} alt="" /> 4.7
                                     <div className='flex   mb-10 items-center'>
-                                        <button className='text-3xl  mr-5 text-gray-500 cursor-pointer' onClick={() => setCount(count - 1)}>-</button>
+                                        <button className='text-3xl  mr-5 text-gray-500 cursor-pointer'>-</button>
                                         <div className="borderer font-bold">
-                                            {count}
+
                                         </div>
-                                        <button className='cursor-pointer ml-5 text-green-500 text-3xl' onClick={() => setCount(count + 1)}>+</button>
+                                        <button className='cursor-pointer ml-5 text-green-500 text-3xl'>+</button>
                                     </div>
                                     <hr className='w-full' />
                                     <div className="flex w-full mt-10 justify-between">

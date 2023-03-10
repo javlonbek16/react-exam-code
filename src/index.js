@@ -9,7 +9,7 @@ import Store from './Store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
-    < Store>
+    <Store>
       <Talkr defaultLanguage='uz' languages={languagesList}>
         <App />
       </Talkr>
