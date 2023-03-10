@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "product":"Mahsulotlar Katalogi",
+    "phtos": "Foto-lavhalar",
+    "delivery": "Yetkazib berish va to'lash",
+    "action": "Aksiya",
+    "new": "Yangi",
+    "city": "Toshkent Shahar",
+    "enter": "Kirish",
+    "sp": "Ro’yxatdan o’tish"
+  },
+  "info": {
+    "sp_info": "Ro’yxatdan o’tish” tugmasini bosgan holda, Siz",
+    "sp_infod": "Foydalanish shartlarini qabul qilgan xisoblanasiz."
+  }
+}

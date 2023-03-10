@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "product":"Product catalog",
+    "phtos": "Photographs",
+    "delivery": "Delivery and payment",
+    "action": "Action",
+    "new": "New",
+    "city": "Tashkent City",
+    "enter": "Enter",
+    "sp": "Sign up"
+  },
+  "info": {
+    "sp_info": "By clicking the 'Register' button, you",
+    "sp_infod": "You are deemed to have accepted the Terms of Use."
+  }
+}

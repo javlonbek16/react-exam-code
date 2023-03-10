@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .g {
+    color: #cdebd8 ;
+} */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.active {
+  color: #181725;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline green 2px;
+}
+.logo {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+.line {
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+}
+
+.bordernone {
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+.borderBookmark {
+  /* border: 1px solid black; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+}
+
+.cartIcon::after,
+.CartWishlist::after {
+  content: attr(data);
+  position: absolute;
+  right: 0;
+  top: -9px;
+  color: red;
+}
+
+.borderer {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bord {
+  border: 1px solid #e2e2e2;
+  border-radius: 18px;
+}
+
+.nomiBOladi {
+  background: #ffffff;
+  box-shadow: 0px 25px 50px 5px #f6f7ff;
+  border-radius: 25px;
+  display: flex;
+}
